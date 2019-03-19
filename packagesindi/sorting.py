@@ -33,39 +33,11 @@ def merge_sort(items):
 
 
 def quick_sort(items):
-   quick_sortHelp(items,0,len(items)-1)
-   
-def quick_sortHelp(items,first,last):
-   if first<last:
+    for i in range(len(items)):  
+        for j in range(len(items)-1-i):
 
-       splitpoint = partition(items,first,last)
-
-       quick_sortHelp(items,first,splitpoint-1)
-       quick_sortHelp(items,splitpoint+1,last)
-
-def partition(items,first,last):
-   pivotvalue = items[first]
-   leftmark = first+1
-   rightmark = last
-
-   done = False
-   while not done:
-
-       while leftmark <= rightmark and items[leftmark] <= pivotvalue:
-           leftmark = leftmark + 1
-
-       while items[rightmark] >= pivotvalue and rightmark >= leftmark:
-           rightmark = rightmark -1
-
-       if rightmark < leftmark:
-           done = True
-       else:
-           temp = items[leftmark]
-           items[leftmark] = items[rightmark]
-           items[rightmark] = temp
-
-   temp = items[first]
-   items[first] = items[rightmark]
-   items[rightmark] = temp
-   return rightmark
-   '''Return array of items, sorted in ascending order'''
+            if items[j] > items[j+1]:  # if this item is bigger than next item..
+                items[j], items[j+1] = items[j+1], items[j]  # swap the two!
+                
+    return items
+    '''Return array of items, sorted in ascending order'''
