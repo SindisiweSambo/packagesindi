@@ -3,7 +3,7 @@ def bubble_sort(items):
     for i in items:
         arr.append(i)
     return sorted(arr)
-     '''Return array of items, sorted in ascending order'''
+    '''Return array of items, sorted in ascending order'''
 
 def merge_sort(items):
 
@@ -33,7 +33,7 @@ def merge_sort(items):
 
 
 def quick_sort(items):
-   quickSortHelper(items,0,len(items)-1)
+   quick_sortHelp(items,0,len(items)-1)
    
 def quick_sortHelp(items,first,last):
    if first<last:
@@ -45,7 +45,7 @@ def quick_sortHelp(items,first,last):
 
 def partition(items,first,last):
    pivotvalue = items[first]
-    leftmark = first+1
+   leftmark = first+1
    rightmark = last
 
    done = False
