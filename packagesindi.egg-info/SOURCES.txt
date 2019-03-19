@@ -1,0 +1,8 @@
+README.md
+setup.py
+packagesindi.egg-info/PKG-INFO
+packagesindi.egg-info/SOURCES.txt
+packagesindi.egg-info/dependency_links.txt
+packagesindi.egg-info/requires.txt
+packagesindi.egg-info/top_level.txt
+test/test.py
