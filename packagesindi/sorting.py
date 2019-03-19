@@ -34,6 +34,7 @@ def merge_sort(items):
 
 def quick_sort(items):
    quickSortHelper(items,0,len(items)-1)
+   
 def quick_sortHelp(items,first,last):
    if first<last:
 
@@ -66,5 +67,5 @@ def partition(items,first,last):
    temp = items[first]
    items[first] = items[rightmark]
    items[rightmark] = temp
-    return rightmark
-    '''Return array of items, sorted in ascending order'''
+   return rightmark
+   '''Return array of items, sorted in ascending order'''
