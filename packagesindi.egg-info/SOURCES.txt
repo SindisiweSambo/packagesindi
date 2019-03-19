@@ -1,5 +1,8 @@
 README.md
 setup.py
+packagesindi/__init__.py
+packagesindi/recursion.py
+packagesindi/sorting.py
 packagesindi.egg-info/PKG-INFO
 packagesindi.egg-info/SOURCES.txt
 packagesindi.egg-info/dependency_links.txt
