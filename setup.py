@@ -10,5 +10,5 @@ setup(
     install_requires=['numpy'],
     url='https://github.com/SindisiweSambo/packagesindi.git',
     author='Sindisiwe Sambo',
-    author_email='<prommy95@gmail.com>'
+    author_email='prommy95@gmail.com'
 )
