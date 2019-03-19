@@ -2,8 +2,8 @@ Metadata-Version: 1.0
 Name: packagesindi
 Version: 0.1
 Summary: EDSA example python package
-Home-page: https://github.com/<SindisiweSambo>/<packagesindi>
-Author: <Sindisiwe Sambo>
+Home-page: https://github.com/SindisiweSambo/packagesindi.git
+Author: Sindisiwe Sambo
 Author-email: <prommy95@gmail.com>
 License: MIT
 Description: #mypackage

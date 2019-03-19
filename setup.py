@@ -8,7 +8,7 @@ setup(
     description='EDSA example python package',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/<SindisiweSambo>/<packagesindi>',
-    author='<Sindisiwe Sambo>',
+    url='https://github.com/SindisiweSambo/packagesindi.git',
+    author='Sindisiwe Sambo',
     author_email='<prommy95@gmail.com>'
 )
